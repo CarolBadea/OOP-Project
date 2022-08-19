@@ -1254,16 +1254,16 @@ int main() {
 	//STL SET
 	cout << "----------------------STL---SET---------------------" << endl;
 	set<string> numeParticipant;
-	numeParticipant.insert("Bold");
-	numeParticipant.insert("Nicoara");
-	numeParticipant.insert("Aura");
+	numeParticipant.insert("Vasilescu");
+	numeParticipant.insert("Badea");
+	numeParticipant.insert("Popescu");
 	cout << "Afisare nume participant din set: " << endl;
 	set<string>::iterator it2;
 	for (it2 = numeParticipant.begin(); it2 != numeParticipant.end(); it2++) {
 		cout << *it2 << endl;
 	}
 	cout << endl;
-	it2 = numeParticipant.find("Nicoara");//verifica daca gasim participantul "Nicoara"
+	it2 = numeParticipant.find("Badea");//verifica daca gasim participantul "Badea"
 	if (it2 != numeParticipant.end()) {
 		cout << "S-a gasit participantul.\n";
 	}
