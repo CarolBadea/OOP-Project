@@ -1,4 +1,4 @@
 # OOP-Project
 
-University Project for OOP classes, that uses OOP fundamental concepts to build
+University Project for C++ OOP class, that uses OOP fundamental concepts to build
 an app for the organization of a contest.
